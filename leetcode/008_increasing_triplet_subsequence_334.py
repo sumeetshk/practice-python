@@ -18,4 +18,4 @@ def increasingTriplet(nums):
     return False
 
 
-print(increasingTriplet([1, 2, 3, 4, 5,7,4,8]))
+print(increasingTriplet([1, 2, 3, 4, 5, 7, 4, 8]))

@@ -40,7 +40,8 @@ def uniqueOccurrencesTwo(arr):
 # Approach 3
 # Use the Counter class from the collections module to count the occurrences of each element in the array.
 # Maintain a set to store the counts.
-# Iterate through the counts obtained from the Counter and check if each count is already present in the set. If yes, return False, indicating non-unique counts. Otherwise, add the count to the set.
+# Iterate through the counts obtained from the Counter and check if each count is already present in the set. 
+# If yes, return False, indicating non-unique counts. Otherwise, add the count to the set.
 # If the iteration completes without returning False, return True, indicating that all counts are unique.
 
 def uniqueOccurrencesThree(arr):
