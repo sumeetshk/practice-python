@@ -1,12 +1,11 @@
 - [String Manipulation](#string-manipulation)
-	- [Standards](#standards)
-	- [Methods](#methods)
-
-
+  - [Standards](#standards)
+  - [Methods](#methods)
 
 # String Manipulation
 
 String is an immutable sequence of data:
+
 - It can be treated as lists in many cases
 - we can index and slice strings
 - we cannot use `del` or `append` as its immutable
@@ -25,7 +24,7 @@ String is an immutable sequence of data:
 
 - len: length of string
 - ord: returns codepoint
-- chr: returns codepoints corresponding character
+- chr: returns codepoints corresponding to the character
 - min: returns min value of the sequence
 - max: returns max value of the sequence
 - index: returns provided character's index
@@ -69,6 +68,7 @@ String is an immutable sequence of data:
 - swapcase: saps the casing of each character
 - title: changes the casing of the first character to uppercase, the rest lower case
 - sorted: returns a new, sorted list fom a list or string
+
   ```python
   print(sorted(['kiwi', 'apple', 'mango']))
   ['apple', 'kiwi', 'mango']
@@ -76,7 +76,9 @@ String is an immutable sequence of data:
   print(sorted('Sort Me!'))
   [' ', '!', 'M', 'S', 'e', 'o', 'r', 't']
   ```
+
 - sort: modifies the list by sorting the elements
+
   ```python
   fruits  ['kiwi', 'apple', 'mango']
   sorted_fruits = fruits.sort()
@@ -84,3 +86,7 @@ String is an immutable sequence of data:
 
   # ['apple', 'kiwi', 'mango']
   ```
+
+- str: stringify an element
+- int/float: converts a string to an integer/float
+-
